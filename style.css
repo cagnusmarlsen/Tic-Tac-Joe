@@ -1,0 +1,58 @@
+.dadaji {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    font-weight: 600;
+}
+
+.baap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+    background-color: beige;
+}
+.container {
+    height: 390px;
+    width: 390px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: 2px solid rebeccapurple;
+}
+.box {
+    padding-top: 50px;
+    text-align: center;
+    border: 1px solid saddlebrown;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.box:hover {
+    background: lightgray;
+}
+
+.text {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
